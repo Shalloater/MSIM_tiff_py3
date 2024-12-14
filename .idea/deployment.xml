@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="yiming@service.qich.top:9622 password" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="yiming@lab">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yiming/MSIM-MPSS" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="yiming@service.qich.top:9622 password">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/yiming/MSIM-MPSS/code" local="$PROJECT_DIR$" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
