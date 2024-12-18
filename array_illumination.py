@@ -530,16 +530,17 @@ def load_image_data(filename, xPix=512, yPix=512, zPix=201, preframes=0):
     image = np.array(image)
     print(image.shape, image.dtype)
 
-    mem_path = os.path.splitext(filename)[0]
-    mem_path = mem_path + ".dat"
+    # mem_path = os.path.splitext(filename)[0]
+    # mem_path = mem_path + ".dat"
+    #
+    # if os.path.exists(mem_path):
+    #     memmap_data = np.memmap(mem_path, dtype=image.dtype, mode='r', shape=image.size).reshape(zPix, xPix, yPix)
+    # else:
+    #     memmap_data = np.memmap(mem_path, dtype=image.dtype, mode='w+', shape=image.size).reshape(zPix, xPix, yPix)
+    #     memmap_data[:] = image[:]
 
-    if os.path.exists(mem_path):
-        memmap_data = np.memmap(mem_path, dtype=image.dtype, mode='r', shape=image.size).reshape(zPix, xPix, yPix)
-    else:
-        memmap_data = np.memmap(mem_path, dtype=image.dtype, mode='w+', shape=image.size).reshape(zPix, xPix, yPix)
-        memmap_data[:] = image[:]
-
-    return memmap_data
+    # return memmap_data
+    return image
 
 
 def load_image_slice(filename, xPix, yPix, preframes=0, which_slice=0):

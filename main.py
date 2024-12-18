@@ -12,12 +12,12 @@ if __name__ == '__main__':
     preframes = 0
     num_harmonics = 3  # Default to 3, might have to lower to 2
 
-    data_dir = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241213-change_vector\\example_simulate'
+    data_dir = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241217-change_psf\\MSIM_lake_nb_blur=2'
     data_filenames_list = [
-        'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241213-change_vector\\example_simulate\\0.tiff',
-        'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241213-change_vector\\example_simulate\\lake.tif']
-    lake_filename = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241213-change_vector\\example_simulate\\lake.tif'
-    background_filename = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241213-change_vector\\example_simulate\\background.tif'
+        'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241217-change_psf\\MSIM_lake_nb_blur=2\\tubules488.tiff',
+        'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241217-change_psf\\MSIM_lake_nb_blur=2\\lake.tiff']
+    lake_filename = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241217-change_psf\\MSIM_lake_nb_blur=2\\lake.tiff'
+    background_filename = 'D:\\Files\\OneDrive - stu.hit.edu.cn\\codes\\python\\MSIM-MPSS-tiff\\data\\241217-change_psf\\MSIM_lake_nb_blur=2\\background.tiff'
 
     use_all_lake_parameters = True
 
